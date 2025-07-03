@@ -1,4 +1,5 @@
 import { ThemeSwitcher } from "@/components/theme-switcher";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export default function Home() {
@@ -12,6 +13,17 @@ export default function Home() {
             </div>
           </div>
         </nav>
+        <div className="">
+          <h1 className="text-4xl font-bold">{"Note to Shelf"}</h1>
+          <p className="text-lg">
+            {"Reflect on your life and save your thoughts to your shelf."}
+          </p>
+          <Button className="mt-4">
+            <Link href="/journals"
+            >{"Get Started"}
+            </Link>
+          </Button>
+          </div>
         <footer className="w-full flex items-center justify-center border-t mx-auto text-center text-xs gap-8 py-16">
           <ThemeSwitcher />
         </footer>

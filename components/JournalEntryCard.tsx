@@ -38,7 +38,7 @@ const JournalEntryCard: React.FC<JournalEntryCardProps> = ({
         </CardDescription>
       </CardContent>
 
-      <CardFooter className="pt-3 border-t border-border/50">
+      <CardFooter className="pt-5 border-t border-border/50">
         <Button
           size="sm"
           className="w-full flex items-center justify-center gap-2 text-sm sm:w-auto sm:ml-auto"

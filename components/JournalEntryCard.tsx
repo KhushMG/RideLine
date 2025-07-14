@@ -33,7 +33,7 @@ const JournalEntryCard: React.FC<JournalEntryCardProps> = ({
       </CardHeader>
 
       <CardContent className="flex-1 pb-4">
-        <CardDescription className="text-sm leading-relaxed line-clamp-4 text-muted-foreground">
+        <CardDescription className="text-sm leading-relaxed line-clamp-4 text-muted-foreground text-ellipsis">
           {content}
         </CardDescription>
       </CardContent>

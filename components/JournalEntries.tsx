@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import JournalEntryCard from './JournalEntryCard';
+// import JournalEntryCard from './JournalEntryCard';
 import { Button } from './ui/button';
 import { useState } from "react";
 import JournalEntryModal from './JournalEntryModal';
@@ -24,23 +24,6 @@ const JournalEntries = () => {
             </Button>
           </div>
         </h2>
-        <div className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-4 sm:space-y-0 lg:grid-cols-3 xl:grid-cols-2">
-          <JournalEntryCard
-            title="Journal Entry 1"
-            content="This is a journal entry about my day. It was quite eventful and I learned a lot of new things. It was quite eventful and I learned a lot of new things.It was quite eventful and I learned a lot of new things. It was quite eventful and I learned a lot of new things. It was quite eventful and I learned a lot of new things.It was quite eventful and I learned a lot of new things.It was quite eventful and I learned a lot of new things."
-            createdAt="June 1st, 2025"
-          />
-          <JournalEntryCard
-            title="Weekend Reflections"
-            content="Spent the weekend hiking and reflecting on life goals. The mountains were beautiful and the weather was perfect."
-            createdAt="June 2nd, 2025"
-          />
-          <JournalEntryCard
-            title="Work Thoughts"
-            content="Had an interesting meeting today about the new project direction."
-            createdAt="June 3rd, 2025"
-          />
-        </div>
       </div>
     </>
   );
